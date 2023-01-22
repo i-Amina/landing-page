@@ -3,6 +3,19 @@ body{
     flex-direction: column;
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    border: 0px;
+    font-size: 22px;
+}
+
 /*header*/
 .header{
     display: flex;
@@ -19,10 +32,124 @@ ul{
     display: flex;
     gap: 16px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
 }
 
 .headerlogo{
     font-weight: bold;
     font-size: 24px;
+    color: white;;
+}
+
+/*Sign up section*/
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 50px;
+    background-color: #1F2937;
+}
+
+.signupimg{
+    width: 900px;
+}
+
+.signupheader{
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.signuplorem{
+    color: white;
+    font-size: 18px;
+}
+
+/*Crew*/
+.crew{
+    margin: 20px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.doctor{
+    width: 300px;
+    height: 300px;
+    border: #3882F6 7px solid;
+    border-radius: 20px;
+}
+
+.crewheader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.desc{
+    text-align: center;
+}
+
+/*Quote*/
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.quotetext{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    width: 50%;
+}
+
+.quoteauth{
+    width: 25%;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/*Advert*/
+.advert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundad{
+    background-color: #3882F6;
+    margin: 20px;
+    margin-top: 50px;
+    width: 70%;
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adcall{
+    font-weight: bold;
     color: white;
 }
+
