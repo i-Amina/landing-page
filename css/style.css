@@ -138,7 +138,8 @@ a{
 .backgroundad{
     background-color: #3882F6;
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     width: 70%;
     padding: 60px;
     padding-left: 100px;
@@ -146,10 +147,33 @@ a{
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .adcall{
     font-weight: bold;
     color: white;
+    font-size: 24px;
+}
+
+.adblah{
+    color: white;
+}
+
+.adbtn{
+    border: 1px solid white;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
 }
 
